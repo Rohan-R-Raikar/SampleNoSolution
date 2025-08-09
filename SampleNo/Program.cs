@@ -117,8 +117,8 @@ builder.Services.AddAuthentication(options =>
 })
 .AddGoogle(options =>
 {
-    options.ClientId = "6043440797-1p68citv3dlqs7muad3c0ub55uj73d2u.apps.googleusercontent.com";
-    options.ClientSecret = "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";
+    options.ClientId = "";
+    options.ClientSecret = "";
     options.CallbackPath = "/signin-google";
 });
 
